@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+.article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+
+header {
+    background-color: #8080800d;
+}
+
+ul li a {
+    color: #9c2be240;
+}
+
+li a:hover {
+    color: blueviolet;
+}
+
+
+footer {
+    background-color: #8080800d; 
+    border: 1px solid gray;
+    box-shadow: 5px 3px 4px gray;
+}
+
+footer p {
+    text-align: center;
+    font-size: large;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: skyblue;
+}
